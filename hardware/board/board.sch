@@ -30,11 +30,11 @@ L Device:R_US R1
 U 1 1 613CC31D
 P 2975 1500
 F 0 "R1" V 2770 1500 50  0000 C CNN
-F 1 "100R" V 2861 1500 50  0000 C CNN
+F 1 "50R" V 2861 1500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3015 1490 50  0001 C CNN
 F 3 "~" H 2975 1500 50  0001 C CNN
-F 4 "R0816P-101-D" H 2975 1500 50  0001 C CNN "mpn"
-F 5 "thin film" H 2975 1500 50  0001 C CNN "Notes"
+F 4 "" H 2975 1500 50  0001 C CNN "mpn"
+F 5 "thin film, highest possible wattage for size" H 2975 1500 50  0001 C CNN "Notes"
 	1    2975 1500
 	0    1    1    0   
 $EndComp
@@ -82,11 +82,11 @@ L Device:R_US R2
 U 1 1 613D1CE3
 P 2975 2375
 F 0 "R2" V 2770 2375 50  0000 C CNN
-F 1 "100R" V 2861 2375 50  0000 C CNN
+F 1 "50R" V 2861 2375 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3015 2365 50  0001 C CNN
 F 3 "~" H 2975 2375 50  0001 C CNN
-F 4 "R0816P-101-D" H 2975 2375 50  0001 C CNN "mpn"
-F 5 "thin film" H 2975 2375 50  0001 C CNN "Notes"
+F 4 "" H 2975 2375 50  0001 C CNN "mpn"
+F 5 "thin film, highest possible wattage for size" H 2975 2375 50  0001 C CNN "Notes"
 	1    2975 2375
 	0    1    1    0   
 $EndComp
@@ -136,11 +136,11 @@ L Device:R_US R3
 U 1 1 613D3C45
 P 2975 3225
 F 0 "R3" V 2770 3225 50  0000 C CNN
-F 1 "100R" V 2861 3225 50  0000 C CNN
+F 1 "50R" V 2861 3225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3015 3215 50  0001 C CNN
 F 3 "~" H 2975 3225 50  0001 C CNN
-F 4 "R0816P-101-D" H 2975 3225 50  0001 C CNN "mpn"
-F 5 "thin film" H 2975 3225 50  0001 C CNN "Notes"
+F 4 "" H 2975 3225 50  0001 C CNN "mpn"
+F 5 "thin film, highest possible wattage for size" H 2975 3225 50  0001 C CNN "Notes"
 	1    2975 3225
 	0    1    1    0   
 $EndComp
@@ -177,11 +177,11 @@ L Device:R_US R4
 U 1 1 613D596D
 P 2975 4125
 F 0 "R4" V 2770 4125 50  0000 C CNN
-F 1 "100R" V 2861 4125 50  0000 C CNN
+F 1 "50R" V 2861 4125 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3015 4115 50  0001 C CNN
 F 3 "~" H 2975 4125 50  0001 C CNN
-F 4 "R0816P-101-D" H 2975 4125 50  0001 C CNN "mpn"
-F 5 "thin film" H 2975 4125 50  0001 C CNN "Notes"
+F 4 "" H 2975 4125 50  0001 C CNN "mpn"
+F 5 "thin film, highest possible wattage for size" H 2975 4125 50  0001 C CNN "Notes"
 	1    2975 4125
 	0    1    1    0   
 $EndComp
@@ -273,11 +273,11 @@ L Device:R_US R5
 U 1 1 613DBB8A
 P 7225 1500
 F 0 "R5" V 7020 1500 50  0000 C CNN
-F 1 "100R" V 7111 1500 50  0000 C CNN
+F 1 "50R" V 7111 1500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7265 1490 50  0001 C CNN
 F 3 "~" H 7225 1500 50  0001 C CNN
-F 4 "R0816P-101-D" H 7225 1500 50  0001 C CNN "mpn"
-F 5 "thin film" H 7225 1500 50  0001 C CNN "Notes"
+F 4 "" H 7225 1500 50  0001 C CNN "mpn"
+F 5 "thin film, highest possible wattage for size" H 7225 1500 50  0001 C CNN "Notes"
 	1    7225 1500
 	0    1    1    0   
 $EndComp
@@ -327,11 +327,11 @@ L Device:R_US R6
 U 1 1 613DBBB9
 P 7225 2375
 F 0 "R6" V 7020 2375 50  0000 C CNN
-F 1 "100R" V 7111 2375 50  0000 C CNN
+F 1 "50R" V 7111 2375 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7265 2365 50  0001 C CNN
 F 3 "~" H 7225 2375 50  0001 C CNN
-F 4 "R0816P-101-D" H 7225 2375 50  0001 C CNN "mpn"
-F 5 "thin film" H 7225 2375 50  0001 C CNN "Notes"
+F 4 "" H 7225 2375 50  0001 C CNN "mpn"
+F 5 "thin film, highest possible wattage for size" H 7225 2375 50  0001 C CNN "Notes"
 	1    7225 2375
 	0    1    1    0   
 $EndComp
@@ -381,11 +381,11 @@ L Device:R_US R7
 U 1 1 613DBBE8
 P 7225 3225
 F 0 "R7" V 7020 3225 50  0000 C CNN
-F 1 "100R" V 7111 3225 50  0000 C CNN
+F 1 "50R" V 7111 3225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7265 3215 50  0001 C CNN
 F 3 "~" H 7225 3225 50  0001 C CNN
-F 4 "R0816P-101-D" H 7225 3225 50  0001 C CNN "mpn"
-F 5 "thin film" H 7225 3225 50  0001 C CNN "Notes"
+F 4 "" H 7225 3225 50  0001 C CNN "mpn"
+F 5 "thin film, highest possible wattage for size" H 7225 3225 50  0001 C CNN "Notes"
 	1    7225 3225
 	0    1    1    0   
 $EndComp
@@ -435,11 +435,11 @@ L Device:R_US R8
 U 1 1 613DBC17
 P 7225 4125
 F 0 "R8" V 7020 4125 50  0000 C CNN
-F 1 "100R" V 7111 4125 50  0000 C CNN
+F 1 "50R" V 7111 4125 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7265 4115 50  0001 C CNN
 F 3 "~" H 7225 4125 50  0001 C CNN
-F 4 "R0816P-101-D" H 7225 4125 50  0001 C CNN "mpn"
-F 5 "thin film" H 7225 4125 50  0001 C CNN "Notes"
+F 4 "" H 7225 4125 50  0001 C CNN "mpn"
+F 5 "thin film, highest possible wattage for size" H 7225 4125 50  0001 C CNN "Notes"
 	1    7225 4125
 	0    1    1    0   
 $EndComp
