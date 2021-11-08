@@ -9,7 +9,7 @@
 
 ## Specifications
 
-* [$169 MSRP](https://winterbloom.com/store/speak-to-me)
+* [$69 MSRP](https://winterbloom.com/shop/hydrogen)
 * 14 HP
 * +12v @ 10mA, -12v @ 10mA
 * 22mm deep
