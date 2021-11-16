@@ -11,7 +11,7 @@
 
 * [$69 MSRP](https://winterbloom.com/shop/hydrogen)
 * 14 HP
-* +12v @ 10mA, -12v @ 10mA
+* +12v @ 20mA, -12v @ 20mA
 * 22mm deep
 * Two channels
 * Each channel has four buffered outputs
