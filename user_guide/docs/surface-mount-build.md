@@ -51,10 +51,10 @@ The LEDs and diodes must be installed in the correct orentation. The PCB and the
 
 <div class="columns">
     <div class="column">
-        <img src="/images/led.jpg" title="A photo showing the proper alignment of LEDs">
+        <img src="/images/led.jpg" alt="A photo showing the proper alignment of LEDs">
     </div>
     <div class="column">
-        <img src="/images/diode.jpg" title="A photo showing the proper alignment of diodes">
+        <img src="/images/diode.jpg" alt="A photo showing the proper alignment of diodes">
     </div>
 </div>
 

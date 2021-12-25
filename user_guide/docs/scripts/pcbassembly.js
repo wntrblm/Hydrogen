@@ -93,6 +93,7 @@ class BOMTable {
         const checkbox = $make("input", {
             type: "checkbox",
             class: "checkbox",
+            "aria-label": `Mark row ${idx+1} complete`,
         });
         const cells = [bom_item.refs, bom_item.value];
         const cell_elems = [
@@ -120,8 +121,8 @@ class BOMTable {
     make() {
         const header_elems = [];
 
-        for (const header of ["", "Reference", "Value"]) {
-            header_elems.push($make("th", { innerText: header }));
+        for (const [header, label] of [["", "Completed"], ["Reference", "Component references"], ["Value", "Component values"]]) {
+            header_elems.push($make(header ? "th" : "td", { innerText: header , "aria-label": label}));
         }
 
         const row_elems = this.items.map((item, idx) =>
@@ -134,6 +135,7 @@ class BOMTable {
                 $make("tbody", { children: row_elems }),
             ],
             class: "bom-table",
+            "aria-label": "Table of components",
         });
 
         $on(table, "click", (ev) => {
