@@ -1,4 +1,4 @@
-# Hydrogen User Guide
+# Hydrogen user guide
 
 !!! Note
     This guide isn't quite finished yet! We're working hard on finishing it up so check back soon!

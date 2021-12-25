@@ -1,4 +1,8 @@
-# Hydrogen Surface Mount Build Guide
+---
+title: Surface mount build guide
+---
+
+# Hydrogen surface mount build guide
 
 Welcome to the **surface mount kit** build guide for Hydrogen. We hope you have a great time putting this module together and a wonderful time using it.
 
@@ -74,8 +78,8 @@ Hydrogen has components on both sides of the PCB. The interactive tables and ima
 * Use the checkboxes to keep track of which components you've finished.
 
 <div class="pcb-assembly" data-pcb-assembly="/pcb-data.json"></div>
-<link rel="stylesheet" href="/styles/pcbassembly.css"/>
-<script type="module" src="/scripts/pcbassembly.js"></script>
+<link rel="stylesheet" href="/winterjs/pcbassembly.css"/>
+<script type="module" src="/winterjs/pcbassembly.js"></script>
 
 ## Inspection & cleaning
 

@@ -1,1 +1,5 @@
-# Hydrogen Kit Build Guide
+---
+title: Kit build guide
+---
+
+# Hydrogen kit build guide
