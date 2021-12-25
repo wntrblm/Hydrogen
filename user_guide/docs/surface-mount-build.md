@@ -61,7 +61,7 @@ The LEDs and diodes must be installed in the correct orentation. The PCB and the
 !!! warning "Don't burn out your lights"
     Be careful when soldering the LEDs, as overheating or touching their lens with a soldering iron can melt and destroy them.
 
-The ICs also have be installed in the correct orentation. The IC has a circle in one corner that designates pin 1. This should be matched with black star on the PCB. The pictures in the [assembly section](#assembly) also highlight pin 1 in <strong style="color:green;">green</strong>.
+The ICs also have be installed in the correct orentation. The IC has a circle in one corner that designates pin 1. This should be matched with black circle or star on the PCB. The pictures in the [assembly section](#assembly) also highlight pin 1 in <strong style="color:green;">green</strong>.
 
 ![IC alignment](images/ic.jpg){: style="max-width: 50%; margin-left: auto; margin-right: auto; display: block;"}
 
