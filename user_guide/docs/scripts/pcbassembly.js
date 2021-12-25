@@ -144,6 +144,8 @@ class BOMTable {
             this.highlight_row_items(row);
         });
 
+        row_elems[0].click();
+
         return table;
     }
 
