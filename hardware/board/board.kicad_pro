@@ -49,12 +49,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "holes_co_located|133300000|104800000|30317bf0-88bb-49e7-bf8b-9f3883982225|eed466bf-cd88-4860-9abf-41a594ca08bd",
-        "holes_co_located|133300000|118100000|a9b3f6e4-7a6d-4ae8-ad28-3d8458e0ca1a|bb4b1afc-c46e-451d-8dad-36b7dec82f26",
-        "holes_co_located|157850000|104800000|afd38b10-2eca-4abe-aed1-a96fb07ffdbe|1fbb0219-551e-409b-a61b-76e8cebdfb9d",
-        "holes_co_located|157850000|118100000|70fb572d-d5ec-41e7-9482-63d4578b4f47|e5203297-b913-4288-a576-12a92185cb52"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
