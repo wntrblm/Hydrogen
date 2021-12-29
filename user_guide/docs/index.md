@@ -1,8 +1,5 @@
 # Hydrogen user guide
 
-!!! Note
-    This guide isn't quite finished yet! We're working hard on finishing it up so check back soon!
-
 [Hydrogen](https://winterbloom.com/shop/hydrogen) is a 1U precision, two channel, 1-to-4 buffered multiple.
 
 [TOC]
@@ -36,10 +33,17 @@ To install this into your Eurorack setup:
 1. Screw the module to your rack's rails.
 
 
-## Inputs and outputs
+## Using the module
 
-We're working on it. :)
+Hydrogen has two independent channels with four buffers. Each channel's input is on the left and the four buffered outputs follow on the right. The LEDs in between will glow blue for positive signals, red for negative signals, and purple for audio signals.
 
+![Illustration of using Hydrogen's two channels independently](/images/two-channel.png){: .dark-invert}
+
+Additionally, if nothing is connected to the second channel's input then the first channel's input is used. This allows you to use Hydrogen as a single channel one-to-eight buffer.
+
+![Illustration of using Hydrogen as a single channel, eight output buffer](/images/one-channel.png){: .dark-invert}
+
+That's pretty much it! ✨
 
 ## Open source hardware & software
 
