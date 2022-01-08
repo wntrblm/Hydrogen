@@ -94,7 +94,7 @@ Next up is placing the ten jacks on the front side of the mainboard.
 
 ![The jacks and the mainboard](/images/5-jacks-2.jpg)
 
-The two jacks near the power header are placed according to the drawing on the board, with the third, bendy leg going into the adjacted hole.
+The two jacks near the power header are placed according to the drawing on the board, with the third, bendy leg going into the adjacent hole.
 
 ![The first jack placed on the front side of the mainboard, over the place labeled "In B"](/images/6-place-first-jack-2.jpg)
 
