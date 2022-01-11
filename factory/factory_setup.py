@@ -5,7 +5,7 @@
 import statistics
 
 from rich import print
-from wintertools import reportcard
+from wintertools import reportcard, thermalprinter
 from wintertools.multimeter import Multimeter
 
 from hubble import Hubble
@@ -139,7 +139,4 @@ else:
     print("FAILED")
 
 if report.succeeded:
-    img_path = reportcard.render_image(report)
-    print(img_path)
-    import subprocess
-    subprocess.run(["python3", "/Users/stargirl/workspace/sketches/thermalprinter/code.py", img_path])
+    thermalprinter.print_me_maybe(reportcard.render_image(report))
