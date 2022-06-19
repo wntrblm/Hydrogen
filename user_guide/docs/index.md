@@ -6,8 +6,8 @@
 
 ## Specifications
 
-* [$69 MSRP](https://winterbloom.com/shop/hydrogen)
-* 14 HP
+* Available [assembled](https://winterbloom.com/shop/hydrogen) or as a [kit](https://winterbloom.com/shop/hydrogen-kit)
+* 1U & 14 HP
 * +12v @ 20mA, -12v @ 20mA
 * 22mm deep
 * Two channels
