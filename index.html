@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8" />
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no" /><!-- Page author --><link rel="canonical" href="https://hydrogen.wntr.dev/" /><link
+  rel="shortcut icon"
+  sizes="192x192"
+  href="/icon.png" />
+<link
+  rel="apple-touch-icon"
+  sizes="192x192"
+  href="/icon.png" />
+
+<meta name="generator" content="mkdocs-1.5.3" /><!-- Title --><title>
+          Hydrogen
+          
+            
+          
+
+          
+        </title><link rel="stylesheet" href="winter.css" /></head>
+
+  <body
+    class=""
+    data-page=""><header>
+        <nav role="navigation" aria-label="main navigation">
+          <ul>
+            <li>
+              <a href=".">Hydrogen</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <img class="logo" src="/winterbloom.png" alt="Winterbloom logo" />
+            </li>
+          </ul>
+        </nav>
+        <nav role="navigation" aria-label="secondary navigation">
+          <ul class="has-dividers"><li>
+                <a
+                  aria-current
+                  href=".">
+                  Manual
+                </a>
+              </li><li>
+                <a
+                  
+                  href="build/">
+                  Build
+                </a>
+              </li></ul>
+          <ul><li>
+              <winter-dark-mode></winter-dark-mode>
+            </li>
+          </ul>
+        </nav>
+      </header><main
+      class="hide-title">
+  <article class="content"><h1 id="hydrogen-user-guide">Hydrogen user guide<a class="headerlink" href="#hydrogen-user-guide" title="Permanent link">#</a></h1>
+<p><a href="https://winterbloom.com/shop/hydrogen">Hydrogen</a> is a 1U precision, two channel, 1-to-4 buffered multiple.</p>
+<div class="toc">
+<ul>
+<li><a href="#specifications">Specifications</a></li>
+<li><a href="#getting-support-and-help">Getting support and help</a></li>
+<li><a href="#installing-the-module">Installing the module</a></li>
+<li><a href="#using-the-module">Using the module</a></li>
+<li><a href="#open-source-hardware-software">Open source hardware &amp; software</a></li>
+<li><a href="#warranty-disclaimers-and-limits">Warranty, disclaimers, and limits</a></li>
+<li><a href="#acknowledgments-and-thanks">Acknowledgments and thanks</a></li>
+</ul>
+</div>
+<h2 id="specifications">Specifications<a class="headerlink" href="#specifications" title="Permanent link">#</a></h2>
+<ul>
+<li>Available <a href="https://winterbloom.com/shop/hydrogen">assembled</a> or as a <a href="https://winterbloom.com/shop/hydrogen-kit">kit</a></li>
+<li><code>1U</code> &amp; <code>14 HP</code></li>
+<li><code>+12v @ 20mA</code>, <code>-12v @ 20mA</code></li>
+<li><code>22mm</code> deep</li>
+<li>Two channels</li>
+<li>Each channel has four buffered outputs</li>
+<li>Second channel normaled to the first so it can be used as a 1-to-8 buffered multiple.</li>
+<li><a href="https://www.modulargrid.net/e/winterbloom-hydrogen">ModularGrid page</a></li>
+</ul>
+<h2 id="getting-support-and-help">Getting support and help<a class="headerlink" href="#getting-support-and-help" title="Permanent link">#</a></h2>
+<p>We want you to have a wonderful experience with your module. If you need help or run into problems, please reach out to us. <a href="mailto:support@winterbloom.com">Email</a> is the best way for product issues, whereas <a href="https://discord.gg/UpfqghQ">Discord</a> and <a href="https://github.com/wntrblm/Neptune/issues">GitHub</a> are great for getting advice and help on how to customize your module.</p>
+<ul>
+<li>Send us <a href="mailto:support@winterbloom.com">an email</a></li>
+<li>File a bug <a href="https://github.com/wntrblm/Neptune/issues">on GitHub</a></li>
+<li>Reach out on the <a href="https://discord.gg/UpfqghQ">Discord</a></li>
+</ul>
+<h2 id="installing-the-module">Installing the module<a class="headerlink" href="#installing-the-module" title="Permanent link">#</a></h2>
+<p>To install this into your Eurorack setup, connect a Eurorack power cable from your power supply to the back of the module. <strong>Note that even though there's a keyed power connector on the module, double check that the red stripe is on the side labeled <code>red stripe</code>!</strong> Once you've connected the power cable, secure your module to your rack rails using screws.</p>
+<h2 id="using-the-module">Using the module<a class="headerlink" href="#using-the-module" title="Permanent link">#</a></h2>
+<p>Hydrogen has two independent channels with four buffers. Each channel's input is on the left and the four buffered outputs follow on the right. The LEDs in between will glow blue for positive signals, red for negative signals, and purple for audio signals.</p>
+<p><img alt="Illustration of using Hydrogen's two channels independently" src="images/two-channel.svg" /></p>
+<p>Additionally, if nothing is connected to the second channel's input then the first channel's input is used. This allows you to use Hydrogen as a single channel one-to-eight buffer.</p>
+<p><img alt="Illustration of using Hydrogen as a single channel, eight output buffer" src="images/one-channel.svg" /></p>
+<p>That's pretty much it! ✨</p>
+<h2 id="open-source-hardware-software">Open source hardware &amp; software<a class="headerlink" href="#open-source-hardware-software" title="Permanent link">#</a></h2>
+<p>Hydrogen is completely open source and hacking is encouraged.</p>
+<p>The <a href="https://github.com/wntrblm/Hydrogen/tree/main/hardware">hardware designs</a> are available under the permissive <a href="https://cern-ohl.web.cern.ch/">CERN-OHL-P v2</a> and is designed using <a href="https://kicad.org/">KiCAD</a> which is free and open-source. You can open the hardware files using KiCAD or you can <a href="https://github.com/wntrblm/Hydrogen/tree/main/hardware/board/board.pdf">check out a PDF of the schematic</a>.</p>
+<p><img alt="Open Source Hardware Association mark" class="inline small" src="images/oshw.svg" /> Helium is <a href="https://certification.oshwa.org/us002070.html">certified open source hardware</a></p>
+<h2 id="warranty-disclaimers-and-limits">Warranty, disclaimers, and limits<a class="headerlink" href="#warranty-disclaimers-and-limits" title="Permanent link">#</a></h2>
+<p>Modules purchased from Winterbloom have a warranty of six months from the date of purchase. This warranty covers any manufacturing defects in the module. It does not cover damage from due to incorrect handling, storage, or power, overvoltage events, or modifications.</p>
+<p>Please <a href="mailto:support@winterbloom.com">contact us</a> if you are experiencing issues with your module. Modules returned under warranty will either be refunded, replaced, or repaired at our discretion. You will be responsible for the cost of returning the module to Winterbloom.</p>
+<p>Because Eurorack has a vast number of possible combinations of power supplies, modules, cases, and accessories, it is impossible for us to guarantee compatibility with every possible configuration. We make a reasonable effort to test modules with several power supplies, cases, and other modules.</p>
+<p>We encourage tinkering, however, we will not refund, repair, or replace any products that have been modified.</p>
+<p>We have stress tested Hydrogen under the following conditions. These are provided for reference only; we do not guarantee that that the module will function under these conditions.</p>
+<ul>
+<li>Continuous run time: at least 48 hours</li>
+<li>Overvoltage from power supply: at least <code>±18 volts</code></li>
+<li>Reverse voltage from power supply: at least <code>±18 volts</code></li>
+<li>Undervoltage from power supply: as low as <code>±6 volts</code></li>
+<li>Over and under voltage on inputs: at least <code>±12 volts</code></li>
+<li>Outputs shorted together: at least 30 minutes</li>
+<li>Outputs shorted to ground: at least 30 minutes</li>
+</ul>
+<h2 id="acknowledgments-and-thanks">Acknowledgments and thanks<a class="headerlink" href="#acknowledgments-and-thanks" title="Permanent link">#</a></h2>
+<p>Hydrogen would not be possible without the support of Winterbloom's incredible community, the Trans Synth Discord, and Noise Engineering.</p></article>
+</main><footer>
+        <ul>
+          <li>
+            © 2024
+            Winterbloom · Alethea Flowers
+          </li>
+          <li>
+            Published under
+            <a
+              href="https://github.com/wntrblm/Hydrogen/blob/main/docs/LICENSE">
+              CC BY-SA 4.0
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li class="updated">
+            Last updated on 2024/2/23
+          </li>
+          <li>
+            <a href="https://github.com/wntrblm/Hydrogen/edit/main/user_guide/docs/index.md">Edit this page on GitHub</a>
+          </li>
+          <li>
+            <a href="mailto:support@winterbloom.com">
+              Send us a message
+            </a>
+          </li>
+        </ul>
+      </footer>
+      <script type="module" src="winter.js"></script>
+      
+    
+  </body>
+</html>
