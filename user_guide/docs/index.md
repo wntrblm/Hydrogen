@@ -7,9 +7,9 @@
 ## Specifications
 
 * Available [assembled](https://winterbloom.com/shop/hydrogen) or as a [kit](https://winterbloom.com/shop/hydrogen-kit)
-* 1U & 14 HP
-* +12v @ 20mA, -12v @ 20mA
-* 22mm deep
+* `1U` & `14 HP`
+* `+12v @ 20mA`, `-12v @ 20mA`
+* `22mm` deep
 * Two channels
 * Each channel has four buffered outputs
 * Second channel normaled to the first so it can be used as a 1-to-8 buffered multiple.
@@ -18,30 +18,31 @@
 
 ## Getting support and help
 
-We want you to have a wonderful experience with your module. If you need help or run into problems, please reach out to us. Email is the best way for product issues, whereas Discord and GitHub are great for getting advice and help on how to customize your module.
+We want you to have a wonderful experience with your module. If you need help or run into problems, please reach out to us. [Email] is the best way for product issues, whereas [Discord] and [GitHub][github issues] are great for getting advice and help on how to customize your module.
 
-* Send us [an email](mailto:support@winterbloom.com)
-* File a bug [on GitHub](https://github.com/wntrblm/Castor_and_Pollux/issues)
-* Reach out on the [Discord][discord]
+-   Send us [an email][email]
+-   File a bug [on GitHub][github issues]
+-   Reach out on the [Discord][discord]
+
+[github issues]: https://github.com/wntrblm/Neptune/issues
+[discord]: https://discord.gg/UpfqghQ
+[email]: mailto:support@winterbloom.com
 
 
 ## Installing the module
 
-To install this into your Eurorack setup:
-
-1. Connect a Eurorack power cable from your power supply to the back of the module. **Note that even though the power connector on the module is keyed, double check that the red stripe is on the side labeled `red stripe`!**
-1. Screw the module to your rack's rails.
+To install this into your Eurorack setup, connect a Eurorack power cable from your power supply to the back of the module. **Note that even though there's a keyed power connector on the module, double check that the red stripe is on the side labeled `red stripe`!** Once you've connected the power cable, secure your module to your rack rails using screws.
 
 
 ## Using the module
 
 Hydrogen has two independent channels with four buffers. Each channel's input is on the left and the four buffered outputs follow on the right. The LEDs in between will glow blue for positive signals, red for negative signals, and purple for audio signals.
 
-![Illustration of using Hydrogen's two channels independently](/images/two-channel.png){: .dark-invert}
+![Illustration of using Hydrogen's two channels independently](images/two-channel.svg)
 
 Additionally, if nothing is connected to the second channel's input then the first channel's input is used. This allows you to use Hydrogen as a single channel one-to-eight buffer.
 
-![Illustration of using Hydrogen as a single channel, eight output buffer](/images/one-channel.png){: .dark-invert}
+![Illustration of using Hydrogen as a single channel, eight output buffer](images/one-channel.svg)
 
 That's pretty much it! ✨
 
@@ -51,7 +52,7 @@ Hydrogen is completely open source and hacking is encouraged.
 
 The [hardware designs](https://github.com/wntrblm/Hydrogen/tree/main/hardware) are available under the permissive [CERN-OHL-P v2](https://cern-ohl.web.cern.ch/) and is designed using [KiCAD](https://kicad.org/) which is free and open-source. You can open the hardware files using KiCAD or you can [check out a PDF of the schematic](https://github.com/wntrblm/Hydrogen/tree/main/hardware/board/board.pdf).
 
-![Open Source Hardware Association mark](images/oshw.svg){class=oshw} Hydrogen is [certified open source hardware](https://certification.oshwa.org/us002070.html)
+![Open Source Hardware Association mark](images/oshw.svg){: .inline .small } Helium is [certified open source hardware](https://certification.oshwa.org/us002070.html)
 
 
 ## Warranty, disclaimers, and limits
